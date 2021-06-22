@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  padding: 50px 200px;
+}
+
+.a-head {
+  color: black;
+  font-family: monospace;
+  font-size: 24px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.a-link {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+  font-size: 16px;
+  margin: 15px;
+  padding: 3px;
+}
+
+.a-link:hover {
+  background-color: rgb(38, 120, 224);
+  color: whitesmoke;
+}
+
+.article-list {
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+}
+
+.article-list li:before {
+  content: "⚙️";
+  margin: 0 8px 0 0;
+}
